@@ -16,7 +16,7 @@ if (question == 'Y' || question == 'y') {
     message = "Hello, " + usersName + " thank you for visiting my website. I'm glad to hear you are enjoying Code Fellows 102. Have a great " + dinner + " after class.";
     console.log(message);
     } else {
-    message = "Hello, " + usersName + ". I'm sorry class is going well. If there is anything I can do to help please let me know & enjoy your " + dinner + ".";
+    message = "Hello, " + usersName + ". I'm sorry class is not going well. If there is anything I can do to help please let me know & enjoy your " + dinner + ".";
     console.log(message);
  }
  document.write(message);
