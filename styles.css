@@ -132,6 +132,8 @@ footer {
     border: 5px solid #475469;
 }
 
-script {
-    font-size: 20px;
+#quoteDiv {
+    font-size: 30px;
+    color: #997839;
+    font-weight: bold;
 }
