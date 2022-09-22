@@ -132,6 +132,10 @@ footer {
     border: 5px solid #475469;
 }
 
+.scrimage {
+    width: 20%;
+}
+
 #quoteDiv {
     font-size: 30px;
     color: #997839;
