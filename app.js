@@ -51,7 +51,7 @@ console.log(lastQuestion);
 // declaring cat function
 function addTheImage() {
     for (let x = 0; x < lastQuestion  && x < 5; x++) {
-        document.write("<img class='scrimage' src='/pictures/funnycat.jpg' />");
+        document.write("<img class='scrimage' src='pictures/funnycat.jpg' />");
     }
 }
 
