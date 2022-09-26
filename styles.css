@@ -42,7 +42,7 @@ nav a {
     font-family: 'Open Sans', sans-serif;
 }
 
-main {
+body {
     border: 5px solid #997839;
     width: 100%;
 }
@@ -66,7 +66,6 @@ main {
     margin-top: 50px;
     margin-right: 20px;
     margin-left: 500px;
-    padding-right: 10px;
     font-size: 60px;
     font-family: 'Lobster Two';
     border: 5px solid #475469;
@@ -75,47 +74,67 @@ main {
 #blondiep {
     font-size: 20px;
     margin-left: 500px;
-    padding-right: 10px;
+    padding-right: 25px;
 }
 
 #sectionlaszlo {
     width: 100%;
     height: 400px;
     border: 5px solid #475469;
+    background-color: #97B30B;
 }
 
 #laszloimg {
-    width: 10%;
+    width: 15%;
     float: right;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-right: 75px;
+    margin-left: 25px;
+    border: none;
 }
 
 #laszlotitle {
-    margin-top: 150px;
-    margin-right: 0px;
-    margin-left: 500px;
+    margin-top: 50px;
+    margin-right: 300px;
+    margin-left: 100px;
     font-size: 60px;
+    font-family: 'Lobster Two';
+    border: none;
+}
+
+#laszlop {
+    font-size: 20px;
+    margin-left: 100px;
+    padding-right: 25px;
 }
 
 #sectionthree {
     width: 100%;
     height: 400px;
     border: 5px solid #475469;
+    background-color: #97B30B;
 }
 
 #bothimg {
-    width: 10%;
+    width: 15%;
     float: left;
-    margin-top: 20px;
+    margin-top: 50px;
     margin-left: 75px;
 }
 
 #advtitle {
-    margin-top: 150px;
-    margin-right: 0px;
+    margin-top: 50px;
+    margin-right: 20px;
     margin-left: 500px;
     font-size: 60px;
+    font-family: 'Lobster Two';
+    border: 5px solid #475469;
+}
+
+#bothp {
+    font-size: 20px;
+    margin-left: 500px;
+    padding-right: 25px;
 }
 
 footer {
@@ -124,11 +143,6 @@ footer {
     width: 100%;
     height: 230px;
     border: 5px solid;
-    
-}
-
-#sectionfoot {
-    display: inline-block;
 }
 
 #bothfoot1 {
@@ -140,18 +154,11 @@ footer {
 }
 
 #bothfoot2 {
+    display: inline-block;
     width: 5%;
     border: 5px solid #475469;
-    float: right;
+    float: none;
     margin: 0px;
-}
-
-#footp {
-    margin-top: 0px;
-    margin-right: 350px;
-    margin-left: 1000px;
-    font-size: 45px;
-    border: 5px solid #475469;
 }
 
 .scrimage {
@@ -186,3 +193,42 @@ a:link {
   p {
     font-family: 'Open Sans', sans-serif;
   }
+
+  .container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+    border: 5px solid #475469;
+  }
+
+  .cont1 {
+        padding: 20px;
+        width: 30%;
+        margin-top: 0px;
+        margin-left: 75px;
+        border: 5px solid #475469;
+  }
+
+  .cont2 {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    width: 20%;
+    margin-top: 0px;
+    margin-left: 75px;
+    border: 5px solid #475469;
+    font-family: 'Lobster Two';
+}
+
+.cont3 {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    width: 30%;
+    margin-top: 0px;
+    margin-left: 75px;
+    border: 5px solid #475469;
+}
